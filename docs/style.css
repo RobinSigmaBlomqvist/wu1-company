@@ -25,6 +25,7 @@ body {
 
 img {
   max-width: 100%;
+  width: 100%;
 }
 
 /* header */
@@ -86,7 +87,7 @@ img {
 }
 
 .hero-image {
-  max-height: 60vh;
+  max-height: 80vh;
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
@@ -99,8 +100,8 @@ img {
   margin-inline: auto;
 }
 .region {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
 }
 
 /* testimonials */
@@ -119,6 +120,10 @@ img {
 
 .testimonials-list li {
   flex: 1 1 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .testimonials img {
